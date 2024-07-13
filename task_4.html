@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        def calculateCoffeeSupply(age, cups_per_day):
+            max_age = 80
+            years_left = max_age - age
+            total_cups = years_left * 365 * cups_per_day
+            total_cups_rounded = round(total_cups)
+            print(f"You will need {total_cups_rounded} cups of coffee to keep you awake until the age of {max_age}.")
+
+        calculateCoffeeSupply(25, 2)
+        calculateCoffeeSupply(30, 3.5)
+        calculateCoffeeSupply(40, 1.2)
+
+    </script>
+</body>
+</html>
+
